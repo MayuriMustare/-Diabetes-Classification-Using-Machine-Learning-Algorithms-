@@ -9,25 +9,25 @@ A Random Forest Classifier is trained on a diabetes dataset and deployed through
 ## Technologies Used
 ### 1.Backend
 
-Python
+   Python
 
-Flask
+   Flask
 
-Flask-CORS
+   Flask-CORS
 
-NumPy
+   NumPy
 
-Pandas
+   Pandas
 
-Scikit-learn
-
-Pickle
+   Scikit-learn
+  
+   Pickle
 
 ### 2.Frontend
 
-HTML
+   HTML
 
-CSS
+   CSS
 
 ## Dataset Used
 
@@ -53,30 +53,52 @@ The dataset contains medical attributes and an Outcome column indicating diabete
 
 7. Evaluate model using:
 
-a. Cross-validation
+   a. Cross-validation
 
-b. Accuracy score
+   b. Accuracy score
 
-c. Classification report
+   c. Classification report
 
 8. Save trained model using pickle
 
 ## Input Features
 
-Pregnancies
+   Pregnancies
 
-Glucose
+   Glucose
 
-Blood Pressure
+   Blood Pressure
 
-Skin Thickness
+   Skin Thickness
 
-Insulin
+   Insulin
 
-BMI
+   BMI
 
-Diabetes Pedigree Function
+   Diabetes Pedigree Function
 
-Age
+   Age
 
 For male users, the pregnancies value is automatically set to 0.
+
+## Project Structure
+
+Diabetes-Classification/
+├── server.py
+├── Healthcare-Diabetes.csv
+├── Diabetes_prediction.csv
+├── index.html
+├── index.css
+├── diabetes_rf_model.pkl
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
