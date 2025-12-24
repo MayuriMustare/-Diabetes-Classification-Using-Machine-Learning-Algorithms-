@@ -132,8 +132,9 @@ http://127.0.0.1:5000/
 Endpoint:
 POST /predict
 
-Request Format (JSON):
+### Request Format (JSON):
 {
+
   "gender": "female",
   
   "pregnancies": 2,
@@ -153,7 +154,7 @@ Request Format (JSON):
   "age": 32
 }
 
-Response:
+### Response:
 
 {
   "result": "No diabetes detected!",
