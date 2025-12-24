@@ -1,2 +1,8 @@
-# -Diabetes-Classification-Using-Machine-Learning-Algorithms-
-Machine learning–based diabetes prediction using the Pima Indian Diabetes dataset. The project evaluates Logistic Regression, Decision Tree, Random Forest, SVM, and k-NN models. Performance is compared using accuracy, precision, recall, F1-score, and AUC, with Random Forest achieving the best results for early and reliable diabetes classification.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
