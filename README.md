@@ -1,0 +1,2 @@
+# -Diabetes-Classification-Using-Machine-Learning-Algorithms-
+Machine learning–based diabetes prediction using the Pima Indian Diabetes dataset. The project evaluates Logistic Regression, Decision Tree, Random Forest, SVM, and k-NN models. Performance is compared using accuracy, precision, recall, F1-score, and AUC, with Random Forest achieving the best results for early and reliable diabetes classification.
