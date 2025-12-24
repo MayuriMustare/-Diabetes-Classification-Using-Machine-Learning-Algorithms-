@@ -9,31 +9,31 @@ A Random Forest Classifier is trained on a diabetes dataset and deployed through
 ## Technologies Used
 ### 1.Backend
 
-   Python
+   a. Python
 
-   Flask
+   b. Flask
 
-   Flask-CORS
+   c. Flask-CORS
 
-   NumPy
+   d. NumPy
 
-   Pandas
+   e. Pandas
 
-   Scikit-learn
+   f. Scikit-learn
   
-   Pickle
+   g. Pickle
 
 ### 2.Frontend
 
-   HTML
+   a. HTML
 
-   CSS
+   b. CSS
 
 ## Dataset Used
 
-Healthcare-Diabetes.csv
+  1. Healthcare-Diabetes.csv
 
-Diabetes_prediction.csv
+  2. Diabetes_prediction.csv
 
 The dataset contains medical attributes and an Outcome column indicating diabetes presence.
 
@@ -63,21 +63,21 @@ The dataset contains medical attributes and an Outcome column indicating diabete
 
 ## Input Features
 
-   Pregnancies
+   1. Pregnancies
 
-   Glucose
+   2. Glucose
 
-   Blood Pressure
+   3. Blood Pressure
 
-   Skin Thickness
+   4. Skin Thickness
 
-   Insulin
+   5. Insulin
 
-   BMI
+   6. BMI
 
-   Diabetes Pedigree Function
+   7. Diabetes Pedigree Function
 
-   Age
+   8. Age
 
 For male users, the pregnancies value is automatically set to 0.
 
@@ -108,11 +108,11 @@ cd diabetes-classification
 python -m venv venv
 
 Activate the environment:
-Windows
+1. Windows
 
 venv\Scripts\activate
 
-Linux / macOS
+2. Linux / macOS
 
 source venv/bin/activate
 
@@ -135,13 +135,21 @@ POST /predict
 Request Format (JSON):
 {
   "gender": "female",
+  
   "pregnancies": 2,
+  
   "glucose": 120,
+  
   "bloodPressure": 70,
+  
   "skinThickness": 20,
+  
   "insulin": 85,
+  
   "bmi": 28.5,
+  
   "diabetesPedigreeFunction": 0.5,
+  
   "age": 32
 }
 
@@ -149,5 +157,6 @@ Response:
 
 {
   "result": "No diabetes detected!",
+  
   "selected_features": ["Glucose", "BMI", "Age", "Insulin", "BloodPressure"]
 }
