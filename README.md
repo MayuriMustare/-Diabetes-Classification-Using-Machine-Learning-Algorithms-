@@ -1,13 +1,13 @@
 # Diabetes Classification Using Machine Learning
-Project Description
+## Project Description
 
 This project is a Diabetes Classification System built using Machine Learning and Flask.
 It predicts whether a person is diabetic or not based on medical input data.
 
 A Random Forest Classifier is trained on a diabetes dataset and deployed through a Flask REST API to provide predictions.
 
-Technologies Used
-Backend
+## Technologies Used
+### 1.Backend
 
 Python
 
@@ -23,7 +23,7 @@ Scikit-learn
 
 Pickle
 
-Frontend
+### 2.Frontend
 
 HTML
 
