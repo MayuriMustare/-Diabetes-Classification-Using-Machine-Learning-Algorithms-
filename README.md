@@ -133,9 +133,8 @@ Endpoint:
 POST /predict
 
 ### Request Format (JSON):
-{
 
-  "gender": "female",
+{ "gender": "female",
   
   "pregnancies": 2,
   
@@ -151,8 +150,7 @@ POST /predict
   
   "diabetesPedigreeFunction": 0.5,
   
-  "age": 32
-}
+  "age": 32 }
 
 ### Response:
 
