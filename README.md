@@ -85,12 +85,19 @@ For male users, the pregnancies value is automatically set to 0.
 
 Diabetes-Classification/
 ├── server.py
+
 ├── Healthcare-Diabetes.csv
+
 ├── Diabetes_prediction.csv
+
 ├── index.html
+
 ├── index.css
+
 ├── diabetes_rf_model.pkl
+
 └── README.md
+
 ## Installation and Setup
 ### Step 1: Clone the Repository
 
@@ -102,8 +109,11 @@ python -m venv venv
 
 Activate the environment:
 Windows
+
 venv\Scripts\activate
+
 Linux / macOS
+
 source venv/bin/activate
 
 ### Step 3: Install Required Libraries
@@ -112,6 +122,7 @@ pip install flask flask-cors numpy pandas scikit-learn
 
 Running the Application
 python server.py
+
 The Flask server will run at:
 http://127.0.0.1:5000/
 
@@ -133,7 +144,9 @@ Request Format (JSON):
   "diabetesPedigreeFunction": 0.5,
   "age": 32
 }
+
 Response:
+
 {
   "result": "No diabetes detected!",
   "selected_features": ["Glucose", "BMI", "Age", "Insulin", "BloodPressure"]
