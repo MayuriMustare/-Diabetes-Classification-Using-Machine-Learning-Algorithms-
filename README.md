@@ -91,14 +91,50 @@ Diabetes-Classification/
 ├── index.css
 ├── diabetes_rf_model.pkl
 └── README.md
+## Installation and Setup
+### Step 1: Clone the Repository
 
+git clone https://github.com/your-username/diabetes-classification.git
+cd diabetes-classification
 
+### Step 2: Create Virtual Environment (Optional)
+python -m venv venv
 
+Activate the environment:
+Windows
+venv\Scripts\activate
+Linux / macOS
+source venv/bin/activate
 
+### Step 3: Install Required Libraries
 
+pip install flask flask-cors numpy pandas scikit-learn
 
+Running the Application
+python server.py
+The Flask server will run at:
+http://127.0.0.1:5000/
 
+# API Endpoints
+## Predict Diabetes
 
+Endpoint:
+POST /predict
 
-
-
+Request Format (JSON):
+{
+  "gender": "female",
+  "pregnancies": 2,
+  "glucose": 120,
+  "bloodPressure": 70,
+  "skinThickness": 20,
+  "insulin": 85,
+  "bmi": 28.5,
+  "diabetesPedigreeFunction": 0.5,
+  "age": 32
+}
+Response:
+{
+  "result": "No diabetes detected!",
+  "selected_features": ["Glucose", "BMI", "Age", "Insulin", "BloodPressure"]
+}
